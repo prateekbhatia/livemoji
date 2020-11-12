@@ -4,7 +4,7 @@
   "description": "Live Emojis description",
   "permissions": ["activeTab", "declarativeContent", "storage"],
   "background": {
-    "scripts": ["background.js"],
+    "scripts": ["background.js", "script.js"],
     "persistent": false
   },
   "page_action": {
